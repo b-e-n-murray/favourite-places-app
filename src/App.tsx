@@ -1,7 +1,7 @@
-import { greet } from "./utils/greet";
+import { PageHeader } from "./utils/PageHeader";
 
 function App(): JSX.Element {
-  return <h1>{greet("World")}</h1>;
+  return <h1>{PageHeader}</h1>;
 }
 
 export default App;
