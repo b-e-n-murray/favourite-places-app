@@ -4,12 +4,12 @@ import PlaceContent from "./components/PlacesContent";
 
 function App(): JSX.Element {
   return (
-  <div>
-    <h1>{PageHeader()}</h1>
-    <PlaceContent />
-    <p>{PageFooter()}</p>
-  </div>
-  )
+    <div>
+      <h1>{PageHeader()}</h1>
+      <PlaceContent />
+      <p>{PageFooter()}</p>
+    </div>
+  );
 }
 
 export default App;
