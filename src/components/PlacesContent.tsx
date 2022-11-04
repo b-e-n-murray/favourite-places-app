@@ -20,30 +20,20 @@ function PlaceContent(): JSX.Element {
             <PlaceEntry
             entrynum= {3}
             title= {"The Gym"}
-            image= {}
-            description= {}
-            mapslink= {}
+            image= {"https://www.fitnessfirst.co.uk/media/cm2jlwu2/fitnessfirst_interiors-bakerst_147_web.jpg?width=540&height=405&quality=80&rnd=132869859581330000"}
+            description= {"My home-from-home, any time, any place - it never gets old."}
+            mapslink= {"#"}
             />
             <PlaceEntry
             entrynum= {4}
             title= {"Bali"}
-            image= {}
-            description= {}
-            mapslink= {}
-
-
-
-
-
-
-
-
-        </main>
-
-
-
-
-
+            image= {"https://www.google.com/maps/place/Bali,+Indonesia/@-8.4550727,114.5110915,9z/data=!3m1!4b1!4m5!3m4!1s0x2dd141d3e8100fa1:0x24910fb14b24e690!8m2!3d-8.4095178!4d115.188916?hl=en"}
+            description= {"I've never been, but would love to experience beautful sights, such as the above."}
+            mapslink= {"https://www.google.com/maps/place/Bali,+Indonesia/@-8.4537137,114.5110348,9z/data=!3m1!4b1!4m5!3m4!1s0x2dd141d3e8100fa1:0x24910fb14b24e690!8m2!3d-8.4095178!4d115.188916?hl=en"}
+            />
+            </main>
     )
 
 }
+
+        export default PlaceContent
