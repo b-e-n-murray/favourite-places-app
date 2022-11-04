@@ -1,4 +1,5 @@
 import { PageHeader } from "./utils/PageHeader";
+import { PageFooter } from "./utils/PageFooter";
 import PlaceContent from "./components/PlacesContent";
 
 function App(): JSX.Element {
@@ -6,6 +7,7 @@ function App(): JSX.Element {
   <div>
     <h1>{PageHeader()}</h1>
     <PlaceContent />
+    <p>{PageFooter()}</p>
   </div>
   )
 }
