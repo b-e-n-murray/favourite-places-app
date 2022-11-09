@@ -11,9 +11,9 @@ function PlaceEntry(props: PlacesEntryProps): JSX.Element {
     <div>
       <h2>This webpage will showcase some of my top recommended spots</h2>
       <h3>
-        Location {props.entrynum}: <a href="#">{props.title}</a>
+        Location {props.entrynum}: <a href="https://www.tripadvisor.ie/">{props.title}</a>
       </h3>
-      <img src={props.image} height="600" width="800"></img>
+      <img src={props.image} alt = "aesthetic picture of this location" height="600" width="800"></img>
       <p>{props.description}</p>
       <p>
         Find this spot on Google Maps<a href={props.mapslink}>here</a>
