@@ -23,3 +23,6 @@ function PlaceEntry(props: PlacesEntryProps): JSX.Element {
 }
 
 export default PlaceEntry;
+
+/*const objArr = [{title: PortoSanto}, {entryNum: 1}, {image:""}, {description: ""}, {mapslink:""}] */
+/*const mappedArr = objArr.map()*/
