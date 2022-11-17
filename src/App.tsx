@@ -7,7 +7,7 @@ function App(): JSX.Element {
     <div>
       <h1>{PageHeader()}</h1>
       <PlaceContent />
-      <hr/>
+      <hr />
       <PageFooter />
     </div>
   );
