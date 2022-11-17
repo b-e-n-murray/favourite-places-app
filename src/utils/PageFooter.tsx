@@ -1,3 +1,7 @@
-export function PageFooter(): string {
-  return "All photos and maps links courtesy of Google";
+export function PageFooter(): JSX.Element {
+  return (
+    <p>
+        Check out Alli's fav places<a href="https://vermillion-jalebi-324579.netlify.app/"> here</a>
+      </p>
+  );
 }

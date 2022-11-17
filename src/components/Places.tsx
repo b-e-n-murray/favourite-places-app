@@ -22,13 +22,10 @@ function PlaceEntry(props: PlacesEntryProps): JSX.Element {
       ></img>
       <p>{props.description}</p>
       <p>
-        Find this spot on Google Maps<a href={props.mapslink}>here</a>
+        Find this spot on Google Maps<a href={props.mapslink}> here</a>
       </p>
     </div>
   );
 }
 
 export default PlaceEntry;
-
-/*const objArr = [{title: PortoSanto}, {entryNum: 1}, {image:""}, {description: ""}, {mapslink:""}] */
-/*const mappedArr = objArr.map()*/
